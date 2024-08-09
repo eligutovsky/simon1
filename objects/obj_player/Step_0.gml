@@ -56,17 +56,17 @@ if (l4A3758F5_0)
 /// @DnDHash : 5A2EB328
 move_wrap(1, 1, 0);
 
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
-/// @DnDHash : 6F413D03
-var l6F413D03_0;
-l6F413D03_0 = keyboard_check(vk_space);
-if (l6F413D03_0)
+/// @DnDHash : 677EAC33
+var l677EAC33_0;
+l677EAC33_0 = keyboard_check_pressed(vk_space);
+if (l677EAC33_0)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1B09E616
-	/// @DnDParent : 6F413D03
+	/// @DnDParent : 677EAC33
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_bullet"
